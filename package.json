@@ -1,0 +1,36 @@
+{
+  "name": "question-answer",
+  "version": "1.0.0",
+  "description": "Express - Question Answer Api",
+  "main": "server .js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "dev": "nodemon server.js",
+    "import": "node dummy-generator --import",
+    "delete": "node dummy-generator --delete"
+  },
+  "keywords": [
+    "express",
+    "rest",
+    "api"
+  ],
+  "author": "Nermin Baycan",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^7.1.0",
+    "mongoose": "^8.18.0",
+    "moongose": "^1.0.0",
+    "multer": "^2.0.2",
+    "nodemailer": "^7.0.6",
+    "slugify": "^1.6.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
