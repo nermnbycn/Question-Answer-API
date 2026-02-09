@@ -4,11 +4,11 @@ This project is a RESTful API for a Question & Answer platform built with Node.j
 
 Users can register, login, ask questions, answer questions, like/unlike question / answer and reset their passwords via email.
 
-## Features
+## ✨ Features
 
 - User Authentication with JWT  
 - Edit and delete questions / answers
-- Ask questions
+- Ask question
 - Answer questions  
 - Like and undo like questions / answers  
 - Forgot / Reset password system  
@@ -18,7 +18,7 @@ Users can register, login, ask questions, answer questions, like/unlike question
 
 This project follows MVC architecture. Models handle database schemas, Controllers manage business logic, and Routes connect requests to controllers. Since the project is API-based, responses are returned as JSON instead of traditional views.
 
-## Technologies
+## 🛠 Technologies
 
 - Node.js  
 - Express.js  
@@ -73,13 +73,13 @@ npm run dev
 
 Registers a new user and returns a JWT access token.
 
-### 🔑 User Login
+### 🔑 User Log-in
 
 <img width="622" height="561" alt="login" src="https://github.com/user-attachments/assets/9573f969-9583-4db7-a016-2bae0866e3b0" />
 
 Users can log in by sending their email and password. If the credentials are correct, the API returns a JWT access token.
 
-### ❓ Ask Questions
+### ❓ Ask Question
 
 <img width="621" height="566" alt="askquestion" src="https://github.com/user-attachments/assets/a5af1b63-c4a1-4393-96f0-6f2d6edc4c9f" />
 
