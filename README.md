@@ -56,11 +56,17 @@ npm run dev
 - Select Mail and Other
 - Copy the generated password
 - Paste it into SMTP_PASS
-
+- Example:
 ```env
-   Example:
    SMTP_PASS=abcd efgh ijkl mnop
 ```
+
+### 🔐 User Registration
+
+![Register Endpoint](screenshots/register.png)
+
+Registers a new user and returns a JWT access token.
+
 
 
 
