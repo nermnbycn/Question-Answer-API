@@ -2,7 +2,7 @@
 
 This project is a RESTful API for a Question & Answer platform built with Node.js, Express and MongoDB.
 
-Users can register, login, ask questions, answer questions, like/unlike question / answer and reset their passwords via email.
+Users can register, login, ask questions, answer questions, like / undo like question / answer and reset their passwords via email.
 
 ## ✨ Features
 
