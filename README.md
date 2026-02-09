@@ -67,7 +67,7 @@ npm run dev
 ```
 
 ## API Examples
-### 🔐 User Registration
+##### 🔐 User Registration
 
 <img width="622" height="567" alt="register" src="https://github.com/user-attachments/assets/4c82cdc7-d07c-419a-a798-b53d09b4487d" />
 
