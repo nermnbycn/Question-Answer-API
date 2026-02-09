@@ -67,32 +67,32 @@ npm run dev
 ```
 
 ## API Examples
-##### 🔐 User Registration
+#### 🔐 User Registration
 
 <img width="622" height="567" alt="register" src="https://github.com/user-attachments/assets/4c82cdc7-d07c-419a-a798-b53d09b4487d" />
 
 Registers a new user and returns a JWT access token.
 
-### 🔑 User Log-in
+#### 🔑 User Log-in
 
 <img width="622" height="561" alt="login" src="https://github.com/user-attachments/assets/9573f969-9583-4db7-a016-2bae0866e3b0" />
 
 Users can log in by sending their email and password. If the credentials are correct, the API returns a JWT access token.
 
-### ❓ Ask Question
+#### ❓ Ask Question
 
 <img width="621" height="566" alt="askquestion" src="https://github.com/user-attachments/assets/a5af1b63-c4a1-4393-96f0-6f2d6edc4c9f" />
 
 Only logged-in users can create questions. The token must be sent in the Authorization header.
 
-### ✍️ Answer a Question
+#### ✍️ Answer a Question
 
 <img width="624" height="564" alt="answer" src="https://github.com/user-attachments/assets/7c7aaccd-ba5c-4c4b-9bc0-27caa288b533" />
 
 Authenticated users can submit an answer to an existing question.
 This endpoint allows users to contribute by replying to questions.
 
-### ❤️ Like a Question
+#### ❤️ Like a Question
 
 <img width="598" height="556" alt="likequestion" src="https://github.com/user-attachments/assets/62c7e297-a5ee-4e2f-9cb8-e66b206b339f" />
 
@@ -100,13 +100,13 @@ Authenticated users can like a question.
 This feature allows users to support and highlight useful questions.
 
 
-### 🔐 Validation Errors
+#### 🔐 Validation Errors
 
 <img width="623" height="563" alt="register2" src="https://github.com/user-attachments/assets/2af957ff-13c3-4ccc-873c-59a4ebecf583" />
 
 If required fields are missing in a request, the API returns a validation error with an appropriate message.
 
-### 🔐 Check Password
+#### 🔐 Check Password
 
 <img width="622" height="568" alt="checkpassword" src="https://github.com/user-attachments/assets/b17ae345-a628-46e7-b5f7-6925a311ec5e" />
 
