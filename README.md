@@ -46,6 +46,24 @@ Start the development server:
 npm run dev
 ```
 
+## How to Get SMTP_PASS (Gmail)
+
+- Go to your Google Account
+- Open Security
+- Enable 2-Step Verification
+- Click App Passwords
+- Create a new app password
+- Select Mail and Other
+- Copy the generated password
+- Paste it into SMTP_PASS
+
+```env
+   Example:
+   SMTP_PASS=abcd efgh ijkl mnop
+```
+
+
+
 
 
 
